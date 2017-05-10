@@ -234,3 +234,5 @@ COMPOSE_CONVERT_WINDOWS_PATHS=1
 * [amqamq/webtools](https://hub.docker.com/r/amqamq/webtools/)
 
 All are based on `debian:jessie`. We will consider switching to [`alpine`](https://alpinelinux.org/) when `mariadb` gets an official support for it
+
+# Thanks to @AMQAMQ
