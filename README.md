@@ -96,9 +96,6 @@ http://localhost:2080
 # mysql
 mariadb:3306
 
-# client
-http://client:80
-
 # server
 http://server:80
 ```
@@ -109,7 +106,6 @@ http://server:80
 ```
 docker exec -it sam_server_1 /bin/bash
 
-# for client use "sam_client_1"
 ```
 
 ### Phalcon CLI
@@ -175,7 +171,7 @@ No extra configuration is required. Xdebug expects *any* `remote_host`, *any* `i
 
 ## Changing PHP settings
 
-1. Edit `client/docker/php-dev.ini`, by adding, for example:
+1. Edit `server/docker/php-dev.ini`, by adding, for example:
 
     ```
     memory_limit = 256M
@@ -221,7 +217,6 @@ docker-compose --version
 Run on your local machine:
 
 ```
-chmod 777 client/cache
 chmod 777 server/cache
 ```
 
