@@ -9,6 +9,29 @@
     </head>
     <body>
         
+        
+        <!-- das ist das letzte in unserer Anwendung, alles HTML kommt davor -->
+        
+        <!-- hier wird die Firebase Anwendung eingebunden -->
+        <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyCZ9v8V2a1CPo-iceYzbAwAgE-cW-mAafE",
+            authDomain: "educateie-8e829.firebaseapp.com",
+            databaseURL: "https://educateie-8e829.firebaseio.com",
+            projectId: "educateie-8e829",
+            storageBucket: "educateie-8e829.appspot.com",
+            messagingSenderId: "427731967716"
+          };
+          firebase.initializeApp(config);
+        </script>
+        
+        <!-- hier laden wir die Google Maps Api -->
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8bPK_UYlPlG8ZCUGzjIUEYQ_lNBwr98A&callback=initMap"
+  type="text/javascript"></script>
+        
+        <!-- hier wird das JavaScript File main.js aus dem Orderner src/js/ eingebunden -->
         <script type="text/javascript" src="src/js/main.js"></script>
     </body>
 </html>
