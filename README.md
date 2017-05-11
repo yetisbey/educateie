@@ -24,4 +24,8 @@ ein kleines Bild und ein paar eigenheiten die für das land üblich sind (Essen,
 
 Am Ende der Lerneinheit gibt es ein kleines Quiz. Bei dem Quiz müssen die Kinder auf der Karte dann die Länder finden und eine Multiplechoice Frage beantworten.
 
+## Wichtige Links
 
+https://firebase.google.com/docs/web/setup
+
+https://developers.google.com/maps/documentation/javascript/?hl=de
