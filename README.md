@@ -11,6 +11,8 @@ Um einige Daten zu bekommen verwenden wir Klexikon (Wikipedia für Kinder)
 
 ![alt text](https://raw.githubusercontent.com/beni92/educateie/master/readme/educateie.png)
 
+Um sich die Seite anzeigen zu lassen einfach auf https://beni92.github.io/educateie/ klicken
+
 
 ### Was ist die Aufgabe und wie sieht unsere Lösung aus
 
